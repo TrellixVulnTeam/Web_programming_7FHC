@@ -1,2 +1,2 @@
- # [Web_programming]:(file:///Users/ARTEM/Web_programming/app/index.html)
+ # [Web_programming](http://192.168.0.109:3000)
 ПМ_21, лабораторні роботи
