@@ -1,2 +1,2 @@
- # [Web_programming](http://192.168.0.109:3000)
+ # [Web_programming](https://arbrant.github.io/Web_programming/)
 ПМ_21, лабораторні роботи
