@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+		<title>BREAKING NEWS</title>
+		<meta name="viewport" content="width=device-width", initial-scale=1>
+
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+		</script>
+
+		<link rel="stylesheet" href="../css/task_4_site.css">
+      <link rel="stylesheet" href="../css/scrollbar.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  			<div class="container-fluid navmarg">
+    			<a class="navbar-brand navmid" href="task_4_site.html">NEWS</a>
+    			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      			<span class="navbar-toggler-icon"></span>
+    			</button>
+    			<div class="collapse navbar-collapse" id="navbarNav">
+      				<ul class="navbar-nav">
+        				
+	        			<li class="nav-item">
+	          				<a class="nav-link" href="../index.html">Головна сторінка</a>
+	        			</li>
+	        			<li class="nav-item" id="menu_news" onclick="click_on_menu(this)">
+          					<a class="nav-link active" aria-current="page" href="task_4_site.html">Новини</a>
+	        			</li>
+	        			<li class="nav-item" id="menu_task" onclick="click_on_menu(this)">
+	          				<a class="nav-link active" aria-current="page">Завдання</a>
+	        			</li>
+      				</ul>
+    			</div>
+  			</div>
+		</nav>
+
+		<div id="context">
+
+			<div id="div_news">
+
+
+				<div class="text">
+					Дізнайся новини першим!
+				</div>
+				<div class="container-fluid">
+		 			<div class="row main_block" id="paintings">
+		    			<div class="col col-lg-6">
+		      				<div class="news1 big_div animation_div" onclick="click_on_news(this)" data="news1">
+		      					<div class="news_free_space"></div>
+		      					<div class="news_text">
+		      						<h2>Google показала новий дизайн Android 12</h2>
+		      					</div>
+		      				</div>
+		    			</div>
+		    			
+		    			<div class="col col-lg-6">
+		      				<div class="row">
+		      					<div class="col col-lg-6 free_space">
+		      						<div class="news2 small_div animation_div" onClick="click_on_news(this)" data="news2">
+		      							<div class="news_free_space"></div>
+		      							<div class="news_text">
+		      							<h2>Що нам відомо і не відомо про пандемію Covid-19 через рік</h2>
+		      							</div>
+		      						</div>
+		      					</div>
+		      					<div class="col col-lg-6">
+		      						<div class="news3 small_div animation_div" onClick="click_on_news(this)" data="news3">
+		      							<div class="news_free_space"></div>
+		      							<div class="news_text">
+		      							<h2>Як в Україні реагують на результат Go-A на Євробаченні</h2>
+		      							</div>
+		      						</div>
+		      					</div>
+		      				</div>
+		      				<div class="row">
+		      					<div class="col col-lg-6">
+		      						<div class="news4 small_div animation_div" onClick="click_on_news(this)" data="news4">
+		      							<div class="news_free_space"></div>
+		      							<div class="news_text">
+		      							<h2>Затемнення: скільки їх і коли вони бувають</h2>
+		      							</div>
+		      						</div>
+		      					</div>
+		      					<div class="col col-lg-6">
+		      						<div class="news5 small_div animation_div" onClick="click_on_news(this)" data="news5">
+		      							<div class="news_free_space"></div>
+		      							<div class="news_text">
+		      							<h2>Байден пояснив, чому нема санкцій проти Nord Stream</h2>
+		      							</div>
+		      						</div>
+		      					</div>
+		      				</div>
+		    			</div>
+		  			</div>
+				</div>
+
+				<br>
+
+				<div class="container-fluid">
+		 			<div class="row main_block" id="some_news">
+		    			
+		    			<div class="col col-lg-6">
+		      				<div class="row">
+		      					<div class="col col-lg-6 free_space">
+		      						<div class="news6 small_div animation_div" onClick="click_on_news(this)" data="news6">
+		      							<div class="news_free_space"></div>
+		      							<div class="news_text">
+		      							<h2>Чому не треба боятися кошмарів? І чим вони корисні</h2>
+		      							</div>
+		      						</div>
+		      					</div>
+		      					<div class="col col-lg-6">
+		      						<div class="news7 small_div animation_div" onClick="click_on_news(this)" data="news7">
+		      							<div class="news_free_space"></div>
+		      							<div class="news_text">
+		      							<h2>Найкращі серіали початку 2021 року</h2>
+		      							</div>
+		      						</div>
+		      					</div>
+		      				</div>
+		      				<div class="row">
+		      					<div class="col col-lg-6">
+		      						<div class="news8 small_div animation_div" onClick="click_on_news(this)" data="news8">
+		      							<div class="news_free_space"></div>
+		      							<div class="news_text">
+		      							<h2>Народні прикмети, обряди і звичаї 26 травня</h2>
+		      							</div>
+		      						</div>
+		      					</div>
+		      					<div class="col col-lg-6">
+		      						<div class="news9 small_div animation_div" onClick="click_on_news(this)" data="news9">
+		      							<div class="news_free_space"></div>
+		      							<div class="news_text">
+		      							<h2>SpaceX знову виведе на орбіту групу інтернет-супутників</h2>
+		      							</div>
+		      						</div>
+		      					</div>
+		      				</div>
+		    			</div>
+		    			<div class="col col-lg-6">
+		      				<div class="news10 big_div animation_div" onClick="click_on_news(this)" data="news10">
+		      					<div class="news_free_space"></div>
+		      					<div class="news_text">
+		      						<h2>"Що відомо про COVID-паспорти і кого та куди з ними пускатимуть</h2>
+		      					</div>
+		      				</div>
+		    			</div>
+		  			</div>
+				</div>
+
+				<br>
+
+				<div class="container-fluid" id="div_galery">
+		 			<div class="row main_block" id="some_news">
+		    			<div class="col col-lg-6">
+		      				<div class="news11 big_div animation_div" onClick="click_on_news(this)" data="news11">
+		      					<div class="news_free_space"></div>
+		      					<div class="news_text">
+		      						<h2>Ф'юрі офіційно оголосив про свій третій бій з Вайлдером</h2>
+		      					</div>
+		      				</div>
+		    			</div>
+		    			
+		    			<div class="col col-lg-6">
+		      				<div class="row">
+		      					<div class="col col-lg-6 free_space">
+		      						<div class="news12 small_div animation_div" onClick="click_on_news(this)" data="news12">
+		      							<div class="news_free_space"></div>
+		      							<div class="news_text">
+		      							<h2>Marvel представила перший тизер "Вічних" з Анджеліною Джолі</h2>
+		      							</div>
+		      						</div>
+		      					</div>
+		      					<div class="col col-lg-6">
+		      						<div class="news13 small_div animation_div" onClick="click_on_news(this)" data="news13">
+		      							<div class="news_free_space"></div>
+		      							<div class="news_text">
+		      							<h2>Apple Watch можна буде керувати за допомогою жестів</h2>
+		      							</div>
+		      						</div>
+		      					</div>
+		      				</div>
+		      				<div class="row">
+		      					<div class="col col-lg-6">
+		      						<div class="news14 small_div animation_div" onClick="click_on_news(this)" data="news14">
+		      							<div class="news_free_space"></div>
+		      							<div class="news_text">
+		      							<h2>"Євробачення-2021": перемогу в конкурсі здобула Італія</h2>
+		      							</div>
+		      						</div>
+		      					</div>
+		      					<div class="col col-lg-6">
+		      						<div class="news15 small_div animation_div" onClick="click_on_news(this)" data="news15">
+		      							<div class="news_free_space"></div>
+		      							<div class="news_text">
+		      							<h2>Трампу знову загрожує суд</h2>
+		      							</div>
+		      						</div>
+		      					</div>
+		      				</div>
+		    			</div>
+		  			</div>
+				</div>
+
+				<br>
+
+				<div class="container-fluid" id="div_galery">
+		 			<div class="row main_block" id="some_news">
+		    			
+		    			<div class="col col-lg-6">
+		      				<div class="row">
+		      					<div class="col col-lg-6 free_space">
+		      						<div class="news16 small_div animation_div" onClick="click_on_news(this)" data="news16">
+		      							<div class="news_free_space"></div>
+		      							<div class="news_text">
+		      							<h2>Hubble сфотографував розкішну галактику із сузір'я Діви</h2>
+		      							</div>
+		      						</div>
+		      					</div>
+		      					<div class="col col-lg-6">
+		      						<div class="news17 small_div animation_div" onClick="click_on_news(this)" data="news17">
+		      							<div class="news_free_space"></div>
+		      							<div class="news_text">
+		      								<h2>Генрі Кавілл зіграє в новій версії "Горця"
+											</h2>
+		      							</div>
+		      						</div>
+		      					</div>
+		      				</div>
+		      				<div class="row">
+		      					<div class="col col-lg-6">
+		      						<div class="news18 small_div animation_div" onClick="click_on_news(this)" data="news18">
+		      							<div class="news_free_space"></div>
+		      							<div class="news_text">
+		      							<h2>Microsoft змінює формат відеодзвінка в Teams</h2>
+		      							</div>
+		      						</div>
+		      					</div>
+		      					<div class="col col-lg-6">
+		      						<div class="news19 small_div animation_div" onClick="click_on_news(this)" data="news19">
+		      							<div class="news_free_space"></div>
+		      							<div class="news_text">
+		      							<h2>Netflix збирається взятися за виробництво власних відеоігор</h2>
+		      							</div>
+		      						</div>
+		      					</div>
+		      				</div>
+		    			</div>
+		    			<div class="col col-lg-6">
+		      				<div class="news20 big_div animation_div" onClick="click_on_news(this)" data="news20">
+		      					<div class="news_free_space"></div>
+		      					<div class="news_text">
+		      						<h2>Названо чотири найбільш вразливих знаків Зодіаку</h2>
+		      					</div>
+		      				</div>
+		    			</div>
+		  			</div>
+				</div>
+				<div class="my-3 mx-2 btn btn-outline-primary d-block disabled" id="load" onclick="load_more_news()">Показати більше новин</div>
+				</div>
+
+			</div>
+		
+
+
+			<div id="div_task" hidden>
+				<h2 class="text-center m-3">Варіант №1 - Сайт відображення новин</h2>
+				<hr>
+				<ul>
+					<li>Навігація - шапка сайту
+						<ul>
+							<li>Головна сторінка</li>
+							<li>Новини</li>
+							<li>Завдання</li>
+						</ul>
+					</li>
+					<br>
+					<li>Головна сторінка - перехід на index.html</li>
+					<li>Новини - відображення списку новин</li>
+					<li>Завдання - відображення варіанту завдання студента</li>
+					<br>
+					<li>Новини у списку відображаються по 8 шт.</li>
+					<li>Новина має заголовок, автора, час публікації та опис</li>
+					<li>Є можливість відобразити ще 8 і т.д. за допомогою кнопки "показати більше новин"</li>
+					<li>Опис встановити приховано за промовчанням</li>
+					<li>При виборі новини вона розгортається, відображаючи опис новини</li>
+					<li>Загальна кількість новин - 28</li>
+					<li>Дані зберігаються у папці /data</li>
+					<li>Інформація про список новин зберігається у файлі data.txt</li>
+					<li>Стиль оформлення сайту - на вибір студента</li>
+					<li>Для верстки сайту використовується Bootstrap_5</li>
+					<li>Для роботи з Ajax використовується jQuery_3</li>
+					<li>Bootstrap та jQuery підключаються за допомогою CDN</li>
+				</ul>
+			</div>
+
+
+		</div>
+
+
+
+		<div class="modal fade" id="modal" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-hidden="true">
+      		<div class="modal-dialog modal-xl">
+         		<div class="modal-content bg-dark" id="modal_content"></div>
+      		</div>
+   		</div>
+
+
+
+
+
+    	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+		</script>
+
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+		</script>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous">
+		</script>
+
+      <script src="../js/task_4_site.js">
+      </script>
+
+	</body>
+
+</html>

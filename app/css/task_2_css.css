@@ -29,7 +29,7 @@ body {
   /* Розмір фонового зображення */
   background-size: 20%;
   /* Зображення на задньому фоні */
-  background-image: url(../img/web_technology.png)
+  background-image: url(../img/web_technology.png);
 }
 
 /* Селектор для id <main_block> */
